@@ -1,0 +1,50 @@
+.a1{
+    background-color: aqua;
+}
+.a2{
+    background-color: red;
+}
+.a3{
+    background-color: blueviolet;
+}
+.a4{
+    background-color: beige;
+}
+.a5{
+    background-color: chartreuse;
+}
+.search-box{
+    display:flex;
+    margin-top:20px;
+}
+.search-box input{
+width: 100%;
+padding:8px;
+}
+.search-box button{
+    padding:8px 15px;
+}
+.login-box{
+    width:300;
+    background-color: white;
+    padding: 20px;
+    margin: 80px auto;
+    border:1px solid #ccc;
+    border: radius 5px;
+}
+.input-row{
+    margin-bottom: 15px;
+}
+.input-row input{
+    width: 100px;
+    padding: 8;
+    margin-top: 5px;
+}
+button{
+    width:100%;
+    padding: 10px;
+    background:blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
