@@ -1,0 +1,45 @@
+html{
+    background-color: blanchedalmond;
+}
+h1{
+    font-size: 2em;
+    background-color: chartreuse;
+    color: blue;
+    text-align: center;
+}
+.pbox{
+    display: flex;
+    background-color: blueviolet ;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.pitem{
+    box-align:center;
+    color:coral;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+img{
+   width: 180px;
+}
+.pbox p{
+    text-align: center;
+}
+.bp{
+    background-color: blue;
+
+}
+.bp:hover{
+    font-size: 1.2em;
+    color: darkorchid;
+}
+.get{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: palegreen;
+    align-self: center;
+    margin-left: 60px;
+}

@@ -5,7 +5,12 @@ html{
     background-position: center;
     background-size:cover;
 }
-
+.homem{
+    font-size:1.5em;
+}
+.hr{
+   font-size:1.0em; 
+}
 .a1{
     background-color: aqua;
 }

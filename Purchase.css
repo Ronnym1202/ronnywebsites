@@ -1,0 +1,17 @@
+.pay-box{
+    text-align:center;
+    padding: 20px;
+    border: 2px solid ;
+    background-color: azure;
+}
+.paya{
+    margin: 20px;
+    padding: 2px;
+}
+.payb{
+    border-radius: 5px;
+}
+.payb:hover{
+    background-color: aquamarine;
+    font-size: 1.2em;
+}
