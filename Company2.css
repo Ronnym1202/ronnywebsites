@@ -1,9 +1,9 @@
 html{
     background-color:grey ;
     background-image:url(IMAGES/bg.jpg);
-   <!-- background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;-->
+    background-size:cover;
 }
 
 .a1{
@@ -20,6 +20,10 @@ html{
 }
 .a5{
     background-color: chartreuse;
+}
+a:hover{
+    color: chartreuse;
+    font-size: 1.2em;
 }
 .search-box{
     display:flex;
@@ -87,5 +91,38 @@ table{
 }
 tr{
     background: #000;
-    align:center;
+    box-align:center;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    background-color: aqua;
+    position: absolute;
+    box-shadow: 2px 2px 5px;
+    display: none;
+}
+.dropdown:hover .content{
+    display: block;
+
+}
+button{
+   background-color: coral; 
+}
+button:hover{
+    background-color: chartreuse;
+    font-size: 1.2em;
+}
+button:active{
+    color: red;
+    font-size: 1.2em;
+}
+button:visited{
+    color: blueviolet;
 }
