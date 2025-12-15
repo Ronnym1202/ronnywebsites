@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html{
     background-color: blanchedalmond;
 }
@@ -42,4 +45,13 @@ img{
     background-color: palegreen;
     align-self: center;
     margin-left: 60px;
+}
+.get:hover{
+    background-color: rgb(43, 195, 226);
+    font-size: 1.2em;
+}
+@media screen and (max-width:600px) {
+    *{
+        width: 100%;
+    }
 }

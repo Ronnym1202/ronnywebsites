@@ -107,10 +107,13 @@ tr{
     text-decoration: none;
     padding: 10px 15px;
 }
+.dropdown:hover a{
+    color: chocolate;
+}
 .dropdown .content{
     background-color: aqua;
     position: absolute;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 4px 4px 10px;
     display: none;
 }
 .dropdown:hover .content{
@@ -119,6 +122,10 @@ tr{
 }
 button{
    background-color: coral; 
+}
+.hr1{
+    background-color: rgb(255, 0, 144);
+    font-size: 0.9em;
 }
 button:hover{
     background-color: chartreuse;
@@ -130,4 +137,9 @@ button:active{
 }
 button:visited{
     color: blueviolet;
+}
+@media screen and (max-width:600px) {
+    *{
+        width: 100%;
+    }
 }
