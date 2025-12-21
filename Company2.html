@@ -4,10 +4,11 @@
         <title>SANGUINE COMPANY</title>
         <link rel="stylesheet" href="Company2.css">
         <link rel="icon" type="image/jpg" href="IMAGES/I1.jpg">
+        <script src="https://kit.fontawesome.com/f72f713897.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header style="background-color:purple">
-            <h1>WELCOME HOME</h1>
+            <h1 id="welcome">WELCOME HOME</h1>
             <div style="text-align:right" class="homem">
             <a class="a1" href="Company2.html">HOME</a>
             <a class="a2" href="Services.html">SEVICES</a>
@@ -41,6 +42,7 @@
             <input type="text" placeholder="search here..">
             <button>search</button>
         </div>
+        
         <marquee behavior="" direction="right"><h1 style="color:blue">WELCOME TO SANGUINE COMPANY</h1></marquee>
         <h1 style="text-align: center; color: chartreuse;">MAIN FOUNDERS</h1>
         <div class="row">
@@ -97,7 +99,13 @@
                 <td>closed</td>
             </tr>
         </table>
-
+<div class="Icon"> <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube fa-3x"></i>
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-3x"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-3x"></i></a>
+        <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok fa-3x"></i></a>
+        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-3x"></i></a>
+    </div>
         
         <footer style="background-color: rgb(209, 71, 209);">
             <hr>
@@ -107,11 +115,22 @@
             </div>
             <div id="contact">
                 <h2>CONTANT US:</h2>
-                <p>Email:<a href="ronnymwenda89@gmail.com">ronnymwenda89@gmail.com</a><br>
+                <p>Email:<a href="mailto: ronnymwenda89@gmail.com">ronnymwenda89@gmail.com</a><br>
                 Tel. +254799188900</br>
                 Author: ronny mwenda Sanguine <br>
                 </p>
             </div>
         </footer>
+        <button class="logoutb" onclick="logout()">Logout</button>
+        <script>
+            let name=localStorage.getItem("username");
+if(name){
+    document.getElementById("welcome").textContent="HI "+name+", WELCOME TO OUR COMPANY WEBSITE!!";
+}
+function logout(){
+    localStorage.removeItem("username");
+    window.location.href= "login.html";
+}
+        </script>
     </body>
 </html>

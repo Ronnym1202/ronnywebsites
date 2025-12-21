@@ -1,8 +1,14 @@
+html{
+    background-color: hsl(50, 5%, 53%);
+}
 .pay-box{
     text-align:center;
     padding: 20px;
     border: 2px solid ;
     background-color: azure;
+    width: 50%;
+    justify-self: center;
+    margin-top: 200px;
 }
 .paya{
     margin: 20px;
@@ -14,4 +20,7 @@
 .payb:hover{
     background-color: aquamarine;
     font-size: 1.2em;
+}
+.dis{
+    text-align: center;
 }

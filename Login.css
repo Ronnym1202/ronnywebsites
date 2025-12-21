@@ -17,6 +17,7 @@
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
+    width: 100%;
 }
 label{
     font-size: 2rem;
@@ -48,4 +49,20 @@ button{
 button:hover{
     background-color: rgb(114, 236, 32);
     color: rgb(13, 0, 255);
+}
+.pi{
+text-align: center;
+color: blueviolet;
+font-size: 1.2em;
+font-weight: bolder;
+}
+.li{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    justify-self: center;
+    display: block;
+}
+.lbut{
+ text-decoration: none;   
 }

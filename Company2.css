@@ -73,6 +73,49 @@ border-radius: 3px;
     border: solid 30px red;
     border-radius: 10px;
 }
+.Icon{
+    text-align: center;
+}
+.Icon a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.fa-brands.fa-youtube.fa-3x{
+color: hsl(0, 100%, 50%);
+}
+.fa-brands.fa-youtube.fa-3x:hover{
+color: hsl(0, 100%, 60%);
+}
+.fa-brands.fa-twitter.fa-3x{
+    color: hsl(210, 100%, 56%);
+}
+.fa-brands.fa-twitter.fa-3x:hover{
+    color: hsl(210, 100%, 66%);
+}
+.fa-brands.fa-facebook-f.fa-3x{
+color: hsl(240, 94%, 59%);
+}
+.fa-brands.fa-facebook-f.fa-3x:hover{
+color: hsl(240, 94%, 69%);
+}
+.fa-brands.fa-tiktok.fa-3x{
+color: hsl(0, 0%, 0%);
+}
+.fa-brands.fa-tiktok.fa-3x:hover{
+color: hsl(0, 0%, 20%);
+}
+.fa-brands.fa-whatsapp.fa-3x{
+color: hsl(120, 37%, 52%);
+}
+.fa-brands.fa-whatsapp.fa-3x:hover{
+color: hsl(120, 37%, 62%);
+}
+.fa-brands.fa-instagram.fa-3x{
+color: hsl(16, 75%, 65%);
+}
+.fa-brands.fa-instagram.fa-3x:hover{
+color: hsl(16, 75%, 75%);
+}
 footer{
     display: flex;
     justify-content: center;
@@ -134,6 +177,11 @@ button:hover{
 button:active{
     color: red;
     font-size: 1.2em;
+}
+.logoutb{
+    display: block;
+    align-self: center;
+    text-align: center;
 }
 button:visited{
     color: blueviolet;

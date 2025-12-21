@@ -10,15 +10,17 @@
             <div class="pay-box">
             <h1>PAY</h1>
             <div class="paya">
-            <label for="">AMOUNT:</label>
-            <input type="currency" placeholder="Enter amount here..." required>
+            <label  for="amount">AMOUNT:</label>
+            <input id="amount" type="currency" placeholder="Enter amount here..." required>
             </div>
             <div class="paya">
-                <label for="">CONFIRM:</label>
-                <input type="currency" placeholder="re-enter amount..." required>
+                <label for="amount">CONFIRM:</label>
+                <input id="confirm" type="currency" placeholder="re-enter amount..." required>
             </div>
-            <button class="payb">Pay</button>
+            <button id="pay" class="payb" type="button">Pay</button>
             </div>
         </form>
+        <p id="display" class="dis"></p>
+        <script src="Purchase.js"></script>
     </body>
 </html>
