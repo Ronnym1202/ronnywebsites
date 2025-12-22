@@ -12,13 +12,20 @@ h1{
 }
 .pbox{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
     background-color: blueviolet ;
     font-weight: bolder;
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    
 }
 .pitem{
+    width: 100%;
+    max-width: 280px;
+    box-sizing: border-box;
     box-align:center;
     color:coral;
     margin-right: 10px;
@@ -26,7 +33,9 @@ h1{
     margin-bottom: 20px;
 }
 img{
-   width: 197px;
+   width: 100%;
+   height:auto;
+
 }
 .pbox p{
     text-align: center;
@@ -50,8 +59,8 @@ img{
     background-color: rgb(43, 195, 226);
     font-size: 1.2em;
 }
-@media screen and (max-width:600px) {
-    *{
+@media (max-width:600px) {
+    .pitem{
         width: 100%;
     }
 }
