@@ -2,7 +2,6 @@ html{
     background-color: hsl(50, 5%, 53%);
 }
 .pay-box{
-    display: flex;
     text-align:center;
     padding: 20px;
     border: 2px solid ;
@@ -14,14 +13,13 @@ html{
 .paya{
     margin: 20px;
     padding: 2px;
-    box-sizing: border-box;
 }
 .payb{
     border-radius: 5px;
 }
 .payb:hover{
     background-color: aquamarine;
-    font-size: 1.0em;
+    font-size: 1.2em;
 }
 .dis{
     text-align: center;
