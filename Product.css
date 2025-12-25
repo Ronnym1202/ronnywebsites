@@ -58,7 +58,7 @@ img{
     background-color: rgb(43, 195, 226);
     font-size: 1.2em;
 }
-@media (max-width:600px) {
+@media (max-width:300px) {
     .pitem{
         width: 100%;
     }
