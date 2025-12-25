@@ -51,6 +51,7 @@ border-radius: 3px;
 }
 .row{
     display: flex;
+    width: 100%;
 }
 .box1{
     margin-right: 50%;
@@ -185,6 +186,10 @@ button:active{
 }
 button:visited{
     color: blueviolet;
+}
+img{
+    width: 100%;
+    height: auto;
 }
 @media screen and (max-width:600px) {
     *{
