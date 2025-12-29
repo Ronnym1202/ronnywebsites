@@ -1,15 +1,59 @@
-<DOCTYPE html>
+<!DOCTYPE html>
     <html>
         <head>
-            <title>BOOKING SERVICES</title>
             <link rel="stylesheet" href="book.css">
             <link rel="icon" type="image/jpg" href="IMAGES/I1.jpg">
+            <title>BOOKING SERVICES</title>
         </head>
         <body>
             <h1 class="bookt">WELCOME TO OUR SERVICES BOOKING</h1>
-            <h3 class="books">PLEASE FILL THE FORM BELOW</h3>
-            <form action="">
-                
+            <h2 class="books">PLEASE FILL THE FORM BELOW:</h2>
+                <div class="form-wrapper">
+                    <div class="mf">
+                            <form id="myform" action="">
+                <h2 id="af">APPLICATION BOOKING FORM</h2><br><br>
+                <label for="service">SERVICE NAME:</label>
+                <input type="text" id="service" required minlength="5" placeholder="Enter service name"><br><br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" required minlength="12"placeholder="enter your name..." ><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required minlength="12" placeholder="enter your password..."><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required minlength="12" placeholder="enter your email..."><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" required minlength="10" placeholder="enter mobile number..."><br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" required minlength="5" placeholder="dd/mm/yy"><br><br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" required minlength="1" placeholder="No. of service.." value="1"><br><br>
+                <label for="gender">Gender:</label>
+                <label for="mr">Mr.</label>
+                <input type="radio" name="gender"> 
+                <label for="mrs">Mrs.</label>
+                <input type="radio" name="gender"><br><br>
+                <label for="payment">Payment:</label>
+                <select name="" id="payment">
+                    <option value="text1">Mobile</option>
+                    <option value="text2">Bank</option>
+                    <option value="text3">M-pesa</option>
+                    <option value="text4">Card</option>
+                </select><br><br>
+                <label for="upload">Upload your ID here:</label><br>
+                <label for="file">Picture:</label>
+                <input type="file"  id="file" required><br><br>
+                <label for="comment">Comment:</label>
+                <textarea  id="comment" rows="2" columns="30" required></textarea><br><br>
+                <input id="reset" type="reset">
+                <input id="submit" type="submit" aria-required="true" onsubmit="return submit()">
+                    </div>
+                    <div class="image-box">
+                        <img src="IMAGES/ceo.jpg" alt="Form-image">
+                    </div> 
+                </div>
+                <h3 id="display" class="=dis">status</h3>
             </form>
+           <a href="Services.html" class="back-btn">BACK</a>
+
         </body>
+        <script src="book.js"></script>
     </html>

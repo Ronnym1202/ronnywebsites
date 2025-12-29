@@ -1,0 +1,52 @@
+html{
+    background-color: bisque;
+}
+form{
+    justify-self: center;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 60px;
+    width: auto;
+    height: auto;
+    background-color: beige;
+    padding: 20px;
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+.myi{
+    justify-self: center;
+}
+.myi p{
+    text-align: center;
+    color: blue;
+}
+.inputs label{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.inputs input{
+    font-size: 1.0em;
+    padding: 4px;
+}
+.button{
+    justify-content: center;
+    background-color: cadetblue;
+    cursor: pointer;
+    font-size: 1.3em;
+    border-radius: 5px;
+    width: 100%;
+}
+.button:hover{
+    background-color: cyan;
+}
+#display{
+    text-align: center;
+    color: hsl(0, 100%, 50%);
+}

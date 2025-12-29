@@ -1,0 +1,64 @@
+html{
+    background-color: antiquewhite;
+}
+#myform{
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: hsl(80, 80%, 100%);
+
+}
+.bookt{
+    text-align: center;
+    color: blue;
+}
+#af{
+    text-align: center;
+    text-decoration: underline;
+}
+#reset{
+    border-radius: 5px;
+}
+#submit{
+    border-radius: 5px;
+}
+#reset:hover{
+    background-color: hsl(34, 85%, 63%);
+}
+#submit:hover{
+    background-color: hsl(34, 85%, 63%) ;
+}
+.form-wrapper{
+    background-color: white;
+    display: flex;
+    gap:30px;
+    padding: 20px;
+    justify-content: center;
+}
+.form-box{
+    width: 50%;
+}
+.image-box{
+    width: 50%;
+}
+.image-box img{
+    margin-top: 40px;
+    max-width: 470px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#display{
+    color: blue;
+    text-align: center;
+}
+#comment{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.12em;
+}
+.mf{
+    margin-left: 120px;
+}
