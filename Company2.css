@@ -32,50 +32,41 @@ a:hover{
 }
 .search-box{
     display:flex;
-    flex-direction: row;
-    margin-top:0;
-
-
+    flex-wrap: wrap;
 }
 .search-box input{
-width: 80%;
-padding:8px;
-border: none;
-background-color: aquamarine;
-border-radius: 3px;
-
+    flex: 1 1 70%;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 1em;
 }
 .search-box button{
-    padding:8px 15px;
-    width: 20%;  
+  flex:1 1 25%; 
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
 }
-.box1{
-    margin-right: 50%;
+.box1, .box2{
+    margin:10px;
     text-align: center;
+    width: 100%;
+    max-width: 300px;
     margin-bottom: 10px;
 }
-.box2{
-    margin-right:50%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.box1 img{
-    width:200px;
-    border: solid 30px red;
-    border-radius: 10px;
 
-}
-.box2 img{
-    width:200px;
+.box1 img, .box2 img{
+    width:100%;
+    max-width: 250px;
+    height: auto;
     border: solid 30px red;
     border-radius: 10px;
 }
 .Icon{
     text-align: center;
+    flex-wrap: wrap;
 }
 .Icon a{
     text-decoration: none;
@@ -118,25 +109,17 @@ color: hsl(16, 75%, 65%);
 color: hsl(16, 75%, 75%);
 }
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
 }
-#copy{
-    margin-right: 20px;
-    font-size: 2rem;
-    padding: 10px;
-    width: 50%;
-
-}
-#contact{
-    font-size: 1.2rem;
-    padding: 10px;
-    width: 50%;
+#copy, #contact{
+    width: 100%;
+    margin: 5px 0;
 }
 table{
-    border:solid 2px;
+    width: 100%;
+    display: block;
+    overflow-x: auto;
 }
 tr{
     background: #000;
@@ -144,6 +127,7 @@ tr{
 }
 .dropdown{
     display: inline-block;
+    position: relative;
 }
 .dropdown a{
     display: block;
@@ -157,6 +141,7 @@ tr{
 .dropdown .content{
     background-color: aqua;
     position: absolute;
+    min-width: 150px;
     box-shadow: 4px 4px 10px;
     display: none;
 }
@@ -165,6 +150,8 @@ tr{
 
 }
 button{
+    min-width: 80px;
+    max-width: 200px;
    background-color: coral; 
 }
 .hr1{
@@ -191,8 +178,17 @@ img{
     width: 100%;
     height: auto;
 }
-@media screen and (max-width:300px) {
-    *{
+@media screen and (max-width:600px) {
+    .box1, .box2{
         width: 100%;
+    }
+     .search-box input, .search-box button{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .box1, .box2{
+        max-width: 45%;
     }
 }

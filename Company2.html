@@ -5,6 +5,7 @@
 
         <title>SANGUINE COMPANY</title>
         <link rel="stylesheet" href="Company2.css">
+        <link rel="stylesheet" href="responsive.css">
         <link rel="icon" type="image/jpg" href="IMAGES/I1.jpg">
         <script src="https://kit.fontawesome.com/f72f713897.js" crossorigin="anonymous"></script>
     </head>
@@ -41,9 +42,11 @@
             </div>
         </header><br>
         <div class="search-box">
-            <input type="text" placeholder="search here..">
-            <button>search</button>
+            <input type="text" placeholder="search here.." id="searchInput">
+            <button id="searchButton">search</button>
         </div>
+        <div id="suggestions" style="background-color:white; max-width:400px; margin:auto;"></div>
+<div id="searchResults"></div>
         
         <marquee behavior="" direction="right"><h1 style="color:blue">WELCOME TO SANGUINE COMPANY</h1></marquee>
         <h1 style="text-align: center; color: chartreuse;">MAIN FOUNDERS</h1>
@@ -134,5 +137,8 @@ function logout(){
     window.location.href= "index.html";
 }
         </script>
+        <script src="search.js" defer></script>
+
+
     </body>
 </html>

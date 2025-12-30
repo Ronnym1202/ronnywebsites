@@ -1,38 +1,51 @@
-html{
+*{
+    box-sizing: border-box;
+}
+body{
     background-color: burlywood;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .row{
     display:flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     background-color: blue;
+    padding: 10px;
     margin-bottom: 20px;
 }
 .box{
     width: 100%;
-    margin-right: 20px;
+    max-width: 280px;
+    margin: 10px;
     text-align: center;
-    margin-bottom: 10px;
     background-color: aquamarine;
-    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .service{
     background-color: chartreuse;
     font-size: 2em;
     color: blue;
     text-align: center;
+    padding: 10px;
 }
 .sh{
     font-weight: bolder;
     color: blueviolet;
 }
 .sb{
+    display: inline-block;
+    padding: 8px 12px;
     border-radius: 5px;
-    margin-bottom: 0px;
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
 }
 .sb:hover{
     background-color: blueviolet;
-    font-size: 1.2em;
+    color: white;;
 }
 .general{
     text-align: center;
@@ -41,10 +54,30 @@ html{
 }
 img{
     width: 100%;
+    max-width: 150px;
     height: auto;
 }
-@media (max-width:300px) {
+.full-img{
+    max-width: 100% !important;
+    width:100%;
+    display: block;
+}
+@media (max-width:600px) {
     .box{
         width: 100%;
+    }
+}@media (min-width: 601px) and (max-width: 900px){
+    .box{
+        max-width: 45%;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px){
+    .box{
+        max-width: 45%;
+    }
+}
+@media (min-width: 901px){
+    .box{
+        max-width: 280px;
     }
 }
