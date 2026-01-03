@@ -1,0 +1,58 @@
+html{
+    background-color: bisque;
+}
+#emp-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    width:100%;
+    height: auto;
+    max-width: 250px; 
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0%);
+    padding: 10px;
+    border-radius: 5px;
+}
+img{
+    display: block;
+    justify-self: center;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+#input{
+    justify-self: center;
+    padding: 10px;
+}
+#input label{
+    font-weight:bold;
+    font-size: 1.3em;
+}
+#input input{
+    font-size: 1.1em;
+}
+#logb{
+    display: block;
+    justify-self: center;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsl(240, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 100%;
+}
+#logb:hover{
+    background-color: hsl(271, 76%, 53%);
+    color: hsl(0, 0%, 0%);
+}

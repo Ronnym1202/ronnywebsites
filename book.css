@@ -34,7 +34,7 @@ html{
 .form-wrapper{
     background-color: white;
     display: flex;
-    gap:30px;
+    gap:none;
     padding: 20px;
     justify-content: center;
 }
@@ -45,11 +45,14 @@ html{
     width: 50%;
 }
 .image-box img{
-    margin-top: 40px;
-    max-width: 470px;
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 500px;
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    height: 94%;
+    border-radius: 20px;
 }
 #display{
     color: blue;
@@ -60,5 +63,5 @@ html{
     font-size: 1.12em;
 }
 .mf{
-    margin-left: 120px;
+    margin-left: 10px;
 }

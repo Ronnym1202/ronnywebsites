@@ -136,7 +136,10 @@ tr{
     padding: 10px 15px;
 }
 .dropdown:hover a{
-    color: chocolate;
+    color:blue;
+}
+.dropdown :active a{
+    color: cyan;
 }
 .dropdown .content{
     background-color: aqua;
@@ -147,7 +150,6 @@ tr{
 }
 .dropdown:hover .content{
     display: block;
-
 }
 button{
     min-width: 80px;
